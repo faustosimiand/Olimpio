@@ -1,0 +1,71 @@
+:root{
+    --primario: #04949b;
+    --primariOscuro:#047C82 ;
+    --secundario:#f3aa04 ;
+    --secundarioOscuro:#F5770C;
+    --negro: #000;
+    --blanco:#Fff;
+    
+}
+
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('/assets/fonts/letraOlimpio.ttf') format('truetype'); 
+  }
+
+/* globales */
+body {
+    font-family: "MiFuentePersonalizada", sans-serif;
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    max-height: 100%;
+}
+p{
+    color: var(--negro);
+}
+
+a{
+    text-decoration: none;
+    color: var(--negro);
+}
+
+/* navbar*/
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primariOscuro);
+    /*padding: 5px;
+    padding-right: 50px;
+    padding-left: 20px;*/
+    margin: 0;
+    padding: 0;
+}
+
+.imagen{
+  height: 100px; /*tamaño de la imagen*/
+  flex-wrap: wrap;
+}
+
+.menu ul{
+    display: flex;
+    /*padding-right: 10px;*/
+    flex-wrap: wrap;
+}
+.menu li{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    
+    
+}
+
+/* Efecto de hover para los enlaces */
+.menu a:hover {
+    color: var(--blanco); /* Cambia el color del texto al pasar el mouse */
+}
