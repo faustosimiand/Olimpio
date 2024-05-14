@@ -14,10 +14,10 @@
   }
 
 /* globales */
-body {
+.container--body{
     font-family: "MiFuentePersonalizada", sans-serif;
     background-color: var(--primario);
-    font-size: 1.6rem;
+    
     margin: 0;
     padding: 0;
 }
@@ -33,39 +33,62 @@ a{
     color: var(--negro);
 }
 
-/* navbar*/
-.menu{
+/* Heder*/
+
+.container--imagen{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 130px; /*tamaño de la imagen*/
+}
+
+.navbar {
     background-color: var(--primariOscuro);
-    /*padding: 5px;
-    padding-right: 50px;
-    padding-left: 20px;*/
-    margin: 0;
-    padding: 0;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    
 }
 
-.imagen{
-  height: 100px; /*tamaño de la imagen*/
+@media (min-width: 990px) {
+  .custom-height-lg {
+  max-height: 60rem; /* Ajusta la altura máxima según tu preferencia */
+  }
+  .tamaño--imagen{
+    max-height: 50rem;
+  }
+}
+
+@media (max-width: 989px) {
+  .custom-height-lg {
+    max-height: 30rem; /* Ajusta la altura máxima según tu preferencia */
+    }
+} 
+
+.container--titulo{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+  
+
+}
+
+.container-webs{
+  display: flex;
+  text-align: center;
+  justify-content: center;
   flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 3rem;
+
 }
 
-.menu ul{
-    display: flex;
-    /*padding-right: 10px;*/
-    flex-wrap: wrap;
-}
-.menu li{
-    display: flex;
-    list-style: none;
-    margin-right: 20px;
-    
-    
+.container--logo{
+  width: 10rem;
 }
 
-/* Efecto de hover para los enlaces */
-.menu a:hover {
-    color: var(--blanco); /* Cambia el color del texto al pasar el mouse */
+.alto-imagen{
+  width: 20rem;
 }
