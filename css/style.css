@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'MiFuentePersonalizada';
-    src: url('/assets/fonts/letraOlimpio.ttf') format('truetype'); 
+    src: url('./assets/fonts/letraOlimpio.ttf') format('truetype'); 
   }
 
 /* globales */
