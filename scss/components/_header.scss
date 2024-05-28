@@ -1,0 +1,23 @@
+header {
+    //tamaño de el logo
+    .container--imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        height: 130px;
+
+        .logo {
+            max-height: 100%;
+        }
+    }
+
+    .navbar {
+        background-color: $primarioOscuro;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+
+
+    }
+}

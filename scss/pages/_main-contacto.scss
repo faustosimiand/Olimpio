@@ -1,0 +1,12 @@
+.container-webs {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+    row-gap: 3rem;
+
+    .container--logo {
+        width: 10rem;
+    }
+}

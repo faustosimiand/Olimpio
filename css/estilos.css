@@ -1,3 +1,107 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "MiFuentePersonalizada";
+  src: url("../assets/fonts/letraOlimpio.ttf") format("truetype");
+}
+.container--body {
+  font-family: "MiFuentePersonalizada", sans-serif;
+  background-color: #04949b;
+  margin: 0;
+  padding: 0;
+}
+.container--body p {
+  color: #000;
+  font-size: 1.5rem;
+}
+.container--body a {
+  text-decoration: none;
+  color: #000;
+}
 
+.container--titulo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+header .container--imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 130px;
+}
+header .container--imagen .logo {
+  max-height: 100%;
+}
+header .navbar {
+  background-color: #047C82;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.container-webs {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 3rem;
+}
+.container-webs .container--logo {
+  width: 10rem;
+}
+
+main .imagen-mapa {
+  width: 100%;
+  height: 100%;
+}
+
+main .custom-height-lg {
+  max-height: 60rem;
+  /* Ajusta la altura máxima según tu preferencia */
+}
+main .espacio-container {
+  padding-left: 7rem;
+}
+main .espacio-container .color-card {
+  background-color: #047C82 !important;
+}
+main .espacio-container .card-img-top {
+  max-height: 15rem;
+}
+
+main .color-card {
+  background-color: #047C82 !important;
+}
+
+main .color-card {
+  background-color: #047C82 !important;
+}
+main .tamaño--imagen {
+  max-height: 50rem;
+}
+
+footer {
+  background-color: #047C82;
+  margin-top: 3rem;
+}
+
+@media (max-width: 990px) {
+  .custom-height-lg {
+    max-height: 10rem;
+    /* Ajusta la altura máxima según tu preferencia */
+  }
+  .tamaño--imagen {
+    max-height: 30rem;
+  }
+}
+@media (max-width: 1400px) {
+  main .espacio-container {
+    padding-left: 11rem;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

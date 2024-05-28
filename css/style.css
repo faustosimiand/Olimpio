@@ -1,81 +1,99 @@
-:root{
-    --primario: #04949b;
-    --primariOscuro:#047C82 ;
-    --secundario:#f3aa04 ;
-    --secundarioOscuro:#F5770C;
-    --negro: #000;
-    --blanco:#Fff;
-    
+:root {
+  --primario: #04949b;
+  --primariOscuro: #047C82;
+  --secundario: #f3aa04;
+  --secundarioOscuro: #F5770C;
+  --negro: #000;
+  --blanco: #Fff;
+
 }
 
 @font-face {
-    font-family: 'MiFuentePersonalizada';
-    src: url('../assets/fonts/letraOlimpio.ttf') format('truetype'); 
-  }
+  font-family: 'MiFuentePersonalizada';
+  src: url('../assets/fonts/letraOlimpio.ttf') format('truetype');
+}
 
 /* globales */
-.container--body{
-    font-family: "MiFuentePersonalizada", sans-serif;
-    background-color: var(--primario);
-    
-    margin: 0;
-    padding: 0;
-}
-.logo{
-    max-height: 100%;
-}
-p{
-    color: var(--negro);
+.container--body {
+  font-family: "MiFuentePersonalizada", sans-serif;
+  background-color: var(--primario);
+
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    text-decoration: none;
-    color: var(--negro);
+.logo {
+  max-height: 100%;
+}
+
+p {
+  color: var(--negro);
+}
+
+a {
+  text-decoration: none;
+  color: var(--negro);
 }
 
 /* Heder*/
 
-.container--imagen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    height: 130px; /*tamaño de la imagen*/
+.container--imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 130px;
+  /*tamaño de la imagen*/
 }
 
 .navbar {
-    background-color: var(--primariOscuro);
-    margin-bottom: 5px;
-    font-size: 1.5rem;
-    
+  background-color: var(--primariOscuro);
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+
 }
 
 @media (min-width: 990px) {
   .custom-height-lg {
-  max-height: 60rem; /* Ajusta la altura máxima según tu preferencia */
+    max-height: 10rem;
+    /* Ajusta la altura máxima según tu preferencia */
   }
-  .tamaño--imagen{
+
+  .tamaño--imagen {
     max-height: 50rem;
   }
+
 }
 
-@media (max-width: 989px) {
-  .custom-height-lg {
-    max-height: 30rem; /* Ajusta la altura máxima según tu preferencia */
-    }
-} 
+.custom-height-lg {
+  max-height: 60rem;
+  /* Ajusta la altura máxima según tu preferencia */
+}
 
-.container--titulo{
+
+
+
+.espacio-container {
+  justify-content: center;
+}
+
+.card-img-top {
+  max-height: 15rem;
+}
+
+.container--titulo {
   display: flex;
   text-align: center;
   justify-content: center;
   padding: 2rem;
-  
+
 
 }
 
-.container-webs{
+
+
+.container-webs {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -85,10 +103,10 @@ a{
 
 }
 
-.container--logo{
+.container--logo {
   width: 10rem;
 }
 
-.alto-imagen{
+.alto-imagen {
   width: 20rem;
 }

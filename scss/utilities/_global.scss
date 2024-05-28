@@ -1,0 +1,24 @@
+.container--body {
+    font-family: "MiFuentePersonalizada", sans-serif;
+    background-color: $primario;
+    margin: 0;
+    padding: 0;
+
+    p {
+        color: $negro;
+        font-size: 1.5rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: $negro;
+    }
+}
+.container--titulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+  
+  
+}

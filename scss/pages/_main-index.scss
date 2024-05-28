@@ -1,0 +1,18 @@
+main {
+    .custom-height-lg {
+        max-height: 60rem;
+        /* Ajusta la altura máxima según tu preferencia */
+    }
+
+    .espacio-container {
+        .color-card {
+            background-color: $primarioOscuro !important;
+        }
+        padding-left: 7rem;
+        .card-img-top {
+            max-height: 15rem;
+        }
+    }
+
+
+}
