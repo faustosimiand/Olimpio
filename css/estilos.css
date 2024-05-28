@@ -72,6 +72,14 @@ main .espacio-container .color-card {
 main .espacio-container .card-img-top {
   max-height: 15rem;
 }
+main .cardzoom {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+main .cardzoom:hover {
+  transform: scale(1.1);
+}
 
 main .color-card {
   background-color: #047C82 !important;
