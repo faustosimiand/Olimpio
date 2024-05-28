@@ -1,0 +1,5 @@
+@mixin contenedor ($flex-d,$aling-i,$justify-c){
+    display: $flex-d;
+    text-align: $aling-i;
+    justify-content: $justify-c;
+}

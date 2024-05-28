@@ -15,9 +15,7 @@
     }
 }
 .container--titulo {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    @include contenedor(flex,center,center);
     padding: 2rem;
   
   

@@ -1,7 +1,5 @@
 .container-webs {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    @include contenedor(flex,center,center);
     flex-wrap: wrap;
     column-gap: 5rem;
     row-gap: 3rem;
