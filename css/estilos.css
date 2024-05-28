@@ -25,6 +25,15 @@
   padding: 2rem;
 }
 
+.cardzoom {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.cardzoom:hover {
+  transform: scale(1.1);
+}
+
 header .container--imagen {
   display: flex;
   justify-content: center;
@@ -71,14 +80,6 @@ main .espacio-container .color-card {
 }
 main .espacio-container .card-img-top {
   max-height: 15rem;
-}
-main .cardzoom {
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-main .cardzoom:hover {
-  transform: scale(1.1);
 }
 
 main .color-card {
