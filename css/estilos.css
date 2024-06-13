@@ -89,7 +89,7 @@ main .color-card {
 main .color-card {
   background-color: #047C82 !important;
 }
-main .tamaño--imagen {
+main .tamano--imagen {
   max-height: 50rem;
 }
 
@@ -98,18 +98,31 @@ footer {
   margin-top: 3rem;
 }
 
+@media (max-width: 1400px) {
+  main .espacio-container {
+    padding-left: 11rem;
+  }
+}
 @media (max-width: 990px) {
   .custom-height-lg {
     max-height: 10rem;
     /* Ajusta la altura máxima según tu preferencia */
   }
-  .tamaño--imagen {
+  .tamano--imagen {
     max-height: 30rem;
   }
-}
-@media (max-width: 1400px) {
   main .espacio-container {
-    padding-left: 11rem;
+    padding-left: 6rem;
+  }
+}
+@media (max-width: 768px) {
+  main .espacio-container {
+    padding-left: 9rem;
+  }
+}
+@media (max-width: 500px) {
+  main .espacio-container {
+    padding-left: 6rem;
   }
 }
 
