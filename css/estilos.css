@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "MiFuentePersonalizada";
-  src: url("../assets/fonts/letraOlimpio.ttf") format("truetype");
+  src: url("../../assets/fonts/helveticanowtext-bold-demo.ttf") format("truetype");
 }
 .container--body {
   font-family: "MiFuentePersonalizada", sans-serif;
